@@ -7,16 +7,14 @@ import Form from '../components/Form';
 import Header from '../components/Header';
 
 class Wallet extends React.Component {
-  // tirar USDT do resultado da api ----CHECK
-  // enviar o data por dispatch para uma action ---CHECK
-  // montar a action ok
-  // montar o reducer ok
   async componentDidMount() {
     const { getCurrency } = this.props;
     await getCurrency();
   }
 
   render() {
+    const { expenses } = this.props;
+    console.log(expenses);
     return (
       <div>
         <Header />
@@ -31,8 +29,12 @@ const mapDispatchToProps = (dispatch) => ({
   getCurrency: () => dispatch(fetchCurrency()),
 });
 
+const mapStateToProps = (state) => ({
+  expenses: state.wallet.expenses,
+});
+
 Wallet.propTypes = ({
   getCurrency: PropTypes.func,
 }).isRequire;
 
-export default connect(null, mapDispatchToProps)(Wallet);
+export default connect(mapStateToProps, mapDispatchToProps)(Wallet);

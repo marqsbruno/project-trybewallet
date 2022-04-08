@@ -34,7 +34,6 @@ class Form extends React.Component {
       method,
       tag,
       exchangeRates: newCurr,
-
     };
     addExpense(expense);
     this.setState((prevState) => ({
