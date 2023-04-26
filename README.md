@@ -1,4 +1,4 @@
-# Projeto Blogs Api
+# Projeto Trybe Wallet
 
 Este projeto foi desenvolvido no módulo de Front-end do curso da escola Trybe.
 
