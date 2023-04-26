@@ -1,10 +1,37 @@
-# :construction: README em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto.
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+# Projeto Blogs Api
+
+Este projeto foi desenvolvido no módulo de Front-end do curso da Trybe.
+
+O projeto é uma carteira de controle de gastos com conversor de moedas, nela, o usuário pode fazer o login e vizualizar, adicionar ou remover gastos da tabela.
+
+A aplicação, é feita em **React**, consome a api de cotação de moedas da [awesomeapi](https://docs.awesomeapi.com.br/api-de-moedas) e utiliza o **Redux** como ferramenta para manipulação de estado.
+
+O projeto ainda não foi estilizado! :construction:
+
+## Tecnologias usadas 🛠
+
+- React.js
+- Redux
+
+## Executando aplicação ⚡️
+
+_Instala as dependências:_
+
+```
+npm install
+```
+
+_Roda a aplicação:_
+
+```
+npm start
+```
+
+## Autor 👥
+
+<a href="https://www.linkedin.com/in/marques-bruno/">
+    <img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="https://github.com/marqsbruno">
+    <img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
