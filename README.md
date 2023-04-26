@@ -1,6 +1,6 @@
 # Projeto Blogs Api
 
-Este projeto foi desenvolvido no módulo de Front-end do curso da Trybe.
+Este projeto foi desenvolvido no módulo de Front-end do curso da escola Trybe.
 
 O projeto é uma carteira de controle de gastos com conversor de moedas, nela, o usuário pode fazer o login e vizualizar, adicionar ou remover gastos da tabela.
 
@@ -21,7 +21,7 @@ _Instala as dependências:_
 npm install
 ```
 
-_Roda a aplicação:_
+_Executa a aplicação:_
 
 ```
 npm start
